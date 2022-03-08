@@ -1,0 +1,15 @@
+.admin-area {
+  background: rgb(8, 8, 8);
+  color: white;
+  height: 350px;
+}
+.admin-container {
+  overflow-x: hidden;
+}
+.admin-menu {
+  list-style: none;
+  cursor: pointer;
+}
+.admin-menu:hover {
+  color: rgb(95, 207, 30);
+}

@@ -1,0 +1,15 @@
+.user-area {
+  background: rgb(8, 8, 8);
+  color: white;
+  height: 350px;
+}
+.user-container {
+  overflow-x: hidden;
+}
+.user-menu {
+  list-style: none;
+  cursor: pointer;
+}
+.user-menu:hover {
+  color: rgb(95, 207, 30);
+}

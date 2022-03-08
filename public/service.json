@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "01",
+        "service": "Presage_Watch",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4urtfGLUvPlZXxeJYMKwxod4w0y_Jf_hRBQ&usqp=CAU",
+        "cost": "8999",
+        "status": "pending",
+        "description": "French watch brand Bell & Ross is all about watches that put functionality first. Inspired by aviation, these timepieces look sporty and chic, channeling the Mod style of the ‘60s."
+    },
+    {
+        "_id": "02",
+        "service": "Swiss_Watch",
+        "imageUrl": "https://www.jaeger-lecoultre.com/content/dam/HomePage/redesign/COLLECTION-ENTRY/JLC_HP_23.03.2021_Section_Collection_Entry_Polaris.jpg",
+        "cost": "9999",
+        "status": "pending",
+        "description": "Those who love Swiss heritage watches at an affordable price point will fall for Baume & Mercier instantly. The company dates back to 1830; however, its timepieces have a modern feel as well as a sense of tradition."
+    },
+    {
+        "_id": "03",
+        "service": "Caaio_Watch",
+        "imageUrl": "https://www.casio-intl.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fjpeg&blobheadername1=content-disposition&blobheadervalue1=inline%3Bfilename%3DVintage.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1426296941516&ssbinary=true",
+        "cost": "10999",
+        "status": "pending",
+        "description": "It’s easy to see why IWC Schaffhausen is one of the most famous watch brands in the world. This prestigious manufacturer is all about attention to detail and has been making timepieces for women since the 1870s."
+    },
+    {
+        "_id": "04",
+        "service": "Titan_Watch",
+        "imageUrl": "https://m.media-amazon.com/images/I/61JY0Jda+pL._UY445_.jpg",
+        "cost": "14999",
+        "status": "pending",
+        "description": " It comes to luxury watches, you cannot go past Chanel. Some of the brand’s most iconic motifs – including bouclé tweed fabric, camellia flowers, and the black and white color palette – carry through in all watch ranges"
+    },
+    {
+        "_id": "05",
+        "service": "Apple_Watch",
+        "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FWW52?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1580326080708",
+        "cost": "5764",
+        "status": "pending",
+        "description": "These timepieces have also been through some of the harshest conditions. Think the summit of Mt Everest and the depths of the ocean; they are built to last. A Rolex is always the right choice"
+    },
+    {
+        "_id": "06",
+        "service": "Timesoon_Watch",
+        "imageUrl": "https://www.looksgud.in/upload/item-image/2369/1esog/1esog-timesoon-analogue-girls-watch-black-dial-black-purple-copper_500x500_6.jpg",
+        "cost": "3999",
+        "status": "pending",
+        "description": "A timepiece is an essential accessory for every woman. They are sophisticated and classic and show off your personality."
+    },
+    {
+        "_id": "07",
+        "service": "nato band",
+        "imageUrl": "https://i.ibb.co/TTthDvc/images-4.jpg",
+        "cost": "3999",
+        "status": "pending",
+        "description": "A timepiece is an essential accessory for every woman. They are sophisticated and classic and show off your personality."
+    },
+    {
+        "_id": "08",
+        "service": "Luxury Golden ",
+        "imageUrl": "https://i.ibb.co/1zwZ2TH/images-1.jpg",
+        "cost": "1100",
+        "status": "pending",
+        "description": "Mens Branded Wrist Watch Stainless Steel Back Cover Luxury Golden Watches Top Designer Steel Strap Quartz"
+    },
+    {
+        "_id": "09",
+        "service": "Moq Kt Men Watch",
+        "imageUrl": "https://i.ibb.co/M93nHbk/images-3.jpg",
+        "cost": "1400",
+        "status": "pending",
+        "description": "Oem Low Moq Kt Men Watch Luxury Watches Gift For Men Fashion Oem Gold Mensy Luxury Watches"
+    },
+    {
+        "_id": "10",
+        "service": "High End Stainless",
+        "imageUrl": "https://i.ibb.co/RCwVM3L/download-4.jpg",
+        "cost": "1200",
+        "status": "pending",
+        "description": "High End Stainless Steel Case Japan Movt Sr626sw Price Chronograph Fashion Men Watch Leather"
+    }
+]
