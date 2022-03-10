@@ -8,7 +8,7 @@ const StatusApprove = (Props) => {
   const { id } = useParams();
 
   useEffect(() => {
-    const url = `https://hidden-shore-76699.herokuapp.com/allorders/${id}`;
+    const url = `https://tranquil-hamlet-44273.herokuapp.com/allorders/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setUser(data));
@@ -16,7 +16,7 @@ const StatusApprove = (Props) => {
 
   const handleApprove = () => {
     // console.log(user);
-    const url = `https://hidden-shore-76699.herokuapp.com/allorders/${_id}`;
+    const url = `https://tranquil-hamlet-44273.herokuapp.com/allorders/${_id}`;
     console.log(url);
     fetch(url, {
       method: "PUT",

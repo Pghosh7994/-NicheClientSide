@@ -4,7 +4,7 @@ import StatusApprove from "./StatusApprove";
 const StatusController = () => {
   const [myOrder, setMyOrder] = useState();
   useEffect(() => {
-    const url = "https://hidden-shore-76699.herokuapp.com/allorders";
+    const url = "https://tranquil-hamlet-44273.herokuapp.com/allorders";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setMyOrder(data));

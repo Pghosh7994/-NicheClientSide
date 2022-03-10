@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { Card } from "react-bootstrap";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import useFirebase from "./../../../Hooks/useFirebase";
@@ -12,7 +11,7 @@ const Details = () => {
   const [details, setDetails] = useState([]);
   const [result, setResult] = useState({});
   useEffect(() => {
-    fetch("https://hidden-shore-76699.herokuapp.com/allServices")
+    fetch("https://tranquil-hamlet-44273.herokuapp.com/allServices")
       .then((res) => res.json())
       .then((data) => setDetails(data));
   }, []);
@@ -20,7 +19,7 @@ const Details = () => {
   useEffect(() => {
     const found = details.find((o) => o._id === serviceId);
     setResult(found);
-  }, [details]);
+  }, [details, serviceId]);
 
   const handleOrder = () => {
     const service = result.service;
@@ -39,7 +38,7 @@ const Details = () => {
       serviceId,
       emailOrName,
     };
-    fetch("https://hidden-shore-76699.herokuapp.com/orders", {
+    fetch("orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

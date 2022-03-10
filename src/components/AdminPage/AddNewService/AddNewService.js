@@ -14,7 +14,7 @@ const AddNewService = () => {
 
     const newServices = { service, imageUrl, description, cost, status };
 
-    fetch("https://hidden-shore-76699.herokuapp.com/addServices", {
+    fetch("https://tranquil-hamlet-44273.herokuapp.com/addServices", {
       method: "POST",
       headers: {
         "content-type": "application/json",

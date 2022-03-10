@@ -5,7 +5,7 @@ import OurAllReview from "./OurAllReview";
 const AllReviews = () => {
   const [myOrder, setMyOrder] = useState();
   useEffect(() => {
-    const url = "https://hidden-shore-76699.herokuapp.com/allReviews";
+    const url = "https://tranquil-hamlet-44273.herokuapp.com/allReviews";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setMyOrder(data));

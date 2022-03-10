@@ -10,7 +10,7 @@ const MyOrders = () => {
   useEffect(() => {
     const emailOrName = user?.email || user?.displayName;
     if (emailOrName !== undefined) {
-      const url = `https://hidden-shore-76699.herokuapp.com/allorders/${emailOrName}`;
+      const url = `https://tranquil-hamlet-44273.herokuapp.com/allorders/${emailOrName}`;
       fetch(url)
         .then((res) => res.json())
         .then((data) => setMyOrder(data));

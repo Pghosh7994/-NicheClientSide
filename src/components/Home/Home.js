@@ -9,7 +9,7 @@ import WhyUs from "./WhyUs/WhyUs";
 const Home = () => {
   return (
     <div className="mt-3">
-      <h1 className="mb-3 text-success">Welcome in P_Watch</h1>
+      <h1 className="mb-3 text-success">Welcome</h1>
       <Banner></Banner>
       <HomeProduct></HomeProduct>
       <Policy></Policy>

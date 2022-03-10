@@ -10,7 +10,7 @@ const ManageAllService = (Props) => {
       "Are you sure..! you want to delete this order?"
     );
     if (proceed) {
-      const url = `https://hidden-shore-76699.herokuapp.com/deleteOrder/${_id}`;
+      const url = `https://tranquil-hamlet-44273.herokuapp.com/deleteOrder/${_id}`;
       console.log(url);
       fetch(url, {
         method: "DELETE",
